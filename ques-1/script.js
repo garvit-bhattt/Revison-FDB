@@ -8,6 +8,13 @@ addBtn.addEventListener("click", function () {
 
   // Step 3: Read input value
   var taskValue = taskInput.value;
+  if (taskValue !==""){
+    let listchild= document.createElement("li");
+    listchild.innerText=taskValue;
+    taskList.appendChild(listchild);
+    taskInput.value=""
+     
+  }
 
   // Step 4: Write your logic here
   // - check empty input

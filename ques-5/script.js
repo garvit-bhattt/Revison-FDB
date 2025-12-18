@@ -7,5 +7,6 @@ styleBtn.addEventListener("click", function () {
 
   // Write your logic here
   // Add or remove "highlight" class
+  text.classList.toggle("highlight")
 
 });

@@ -1,0 +1,18 @@
+DOM MANIPULATION TASK
+
+You are given:
+- An input field
+- A submit button
+
+TASK REQUIREMENTS:
+
+1. When the input field is EMPTY:
+   - Disable the submit button.
+
+2. When the input field has ANY value:
+   - Enable the submit button.
+
+RULES:
+- Use setAttribute / removeAttribute OR disabled property.
+- Do NOT change HTML.
+- Use JavaScript only.

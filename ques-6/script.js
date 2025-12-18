@@ -6,6 +6,10 @@ var profileImg = document.getElementById("profileImg");
 toggleBtn.addEventListener("click", function () {
 
   // Write your logic here
-  profileImg.classList.toggle("border")
+  if (profileImg.hasAttribute("style")){
+    profileImg.removeAttribute("style")
+  }else{
+    profileImg.setAttribute("style","border : 3px solid black")
+  }
 
 });

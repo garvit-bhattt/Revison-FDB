@@ -6,10 +6,18 @@ var taskList = document.getElementById("taskList");
 // Step 2: Add event listener to button
 addBtn.addEventListener("click", function () {
 
-  // Step 3: Write logic to add task
-  // (same as previous question)
+  let taskValue = taskInput.value;
 
+  if (taskValue !== "") {
+    let listchild = document.createElement("li");
+    listchild.innerText = taskValue;
+
+    //  delete task on click
+    listchild.addEventListener("click", function () {
+      listchild.remove();
+    });
+
+    taskList.appendChild(listchild);
+    taskInput.value = "";
+  }
 });
-
-// Step 4: Add click event to delete a task
-// Write logic here

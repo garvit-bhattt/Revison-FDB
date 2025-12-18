@@ -1,0 +1,16 @@
+DOM MANIPULATION TASK
+
+You are given an input field, a button, and an empty list.
+
+TASK REQUIREMENTS:
+
+1. When the "Add" button is clicked:
+   - Add the entered task as a <li> inside the list.
+
+2. When any task (<li>) is clicked:
+   - Remove that task from the list.
+
+RULES:
+- Do NOT use inline onclick.
+- Use JavaScript event listeners.
+- Each task should be removable individually.

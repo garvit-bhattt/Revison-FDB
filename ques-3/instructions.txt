@@ -1,0 +1,14 @@
+DOM MANIPULATION TASK
+
+You are given a button and a page.
+
+TASK REQUIREMENTS:
+
+1. When the "Toggle Theme" button is clicked:
+   - Add the class "dark" to the body if it is not present.
+   - Remove the class "dark" if it is already present.
+
+RULES:
+- Use JavaScript only.
+- Do NOT change HTML or CSS.
+- Use classList methods.

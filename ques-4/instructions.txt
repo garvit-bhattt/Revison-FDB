@@ -1,0 +1,14 @@
+DOM MANIPULATION TASK
+
+You are given a button and a div.
+
+TASK REQUIREMENTS:
+
+1. When the "Highlight" button is clicked:
+   - If the div does NOT have class "highlight", add it.
+   - If the div already has class "highlight", remove it.
+
+RULES:
+- Use JavaScript only.
+- Do NOT change HTML or CSS.
+- Use classList methods.

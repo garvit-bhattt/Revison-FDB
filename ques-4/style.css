@@ -1,0 +1,14 @@
+#box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight {
+  background-color: yellow;
+  border-color: red;
+}

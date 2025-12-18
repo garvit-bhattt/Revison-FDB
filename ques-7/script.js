@@ -6,5 +6,9 @@ var submitBtn = document.getElementById("submitBtn");
 nameInput.addEventListener("input", function () {
 
   // Write your logic here
-
+  if (nameInput.value.length==0){
+    submitBtn.setAttribute("disabled","true")
+  }else{
+    submitBtn.removeAttribute("disabled","false")
+  }
 });

@@ -1,0 +1,31 @@
+/* Your existing styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  height: 100vh;
+}
+
+.ball {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(54, 255, 255);
+  border-radius: 50%; 
+  box-shadow: inset -10px -10px 50px rgba(0,0,0,0.2);
+  
+  animation: bounce 2s infinite ease-out alternate;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-200px); }
+}

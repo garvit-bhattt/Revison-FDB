@@ -9,6 +9,6 @@ nameInput.addEventListener("input", function () {
   if (nameInput.value.length==0){
     submitBtn.setAttribute("disabled","true")
   }else{
-    submitBtn.removeAttribute("disabled","false")
+    submitBtn.removeAttribute("disabled")
   }
 });

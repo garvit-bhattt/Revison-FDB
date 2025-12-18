@@ -1,0 +1,18 @@
+DOM MANIPULATION TASK
+
+You are given:
+- A checkbox
+- A disabled button
+
+TASK REQUIREMENTS:
+
+1. When the checkbox is checked:
+   - Enable the "Continue" button.
+
+2. When the checkbox is unchecked:
+   - Disable the "Continue" button.
+
+RULES:
+- Use JavaScript only.
+- Use setAttribute / removeAttribute OR element properties.
+- Do NOT modify HTML or CSS.

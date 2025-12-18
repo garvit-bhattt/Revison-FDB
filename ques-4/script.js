@@ -7,5 +7,6 @@ highlightBtn.addEventListener("click", function () {
 
   // Write your logic here
   // Add or remove "highlight" class on box
+  box.classList.toggle("highlight")
 
 });

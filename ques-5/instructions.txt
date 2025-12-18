@@ -1,0 +1,13 @@
+DOM MANIPULATION TASK
+
+You are given a paragraph and a button.
+
+TASK REQUIREMENTS:
+
+1. When the "Change Style" button is clicked:
+   - Add the class "highlight" to the paragraph if it is not present.
+   - Remove the class "highlight" if it is already present.
+
+RULES:
+- Use classList methods only.
+- Do NOT modify HTML or CSS.

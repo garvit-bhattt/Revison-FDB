@@ -1,0 +1,27 @@
+DOM MANIPULATION TASK
+
+You are given an HTML page with:
+- An input field to enter a task
+- A button to add the task
+- An empty unordered list
+
+TASK REQUIREMENTS:
+
+1. When the "Add Task" button is clicked:
+   - Read the value from the input field.
+   - Create a new <li> element.
+   - Set the text of the <li> as the entered task.
+   - Append the <li> to the list with id "taskList".
+
+2. If the input field is empty:
+   - Do NOT add anything to the list.
+
+3. After adding a task:
+   - Clear the input field.
+
+NOTE:
+- Use DOM methods like:
+  document.getElementById
+  document.createElement
+  appendChild
+  innerText / textContent

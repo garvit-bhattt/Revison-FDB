@@ -6,5 +6,6 @@ var profileImg = document.getElementById("profileImg");
 toggleBtn.addEventListener("click", function () {
 
   // Write your logic here
+  profileImg.classList.toggle("border")
 
 });

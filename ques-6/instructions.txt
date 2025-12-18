@@ -1,0 +1,20 @@
+DOM MANIPULATION TASK
+
+You are given:
+- An image
+- A button
+
+TASK REQUIREMENTS:
+
+1. When the button is clicked:
+   - If the image does NOT have a border:
+       • Add a border of 3px solid black using JavaScript.
+       • Add an attribute data-bordered="true" to the image.
+   - If the image already has the border:
+       • Remove the border.
+       • Remove the data-bordered attribute.
+
+RULES:
+- Do NOT change HTML or CSS.
+- Use JavaScript only.
+- Use setAttribute, removeAttribute, and style property.
